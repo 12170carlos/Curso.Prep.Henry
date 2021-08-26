@@ -1,0 +1,15 @@
+for: Es una instrucción de JavaScript y otros lenguajes, para crear bucles o repeticiones de instrucciones, que se ejecutarán hasta que se indique.
+sintaxis: (inicialización de la variable de iteración; rango el cual se repetirá las instrucciones internas; incremento o decremento de la variable de iteración.)
+ejemplo:
+for (var i = 0(var de iteración); i < 10(rango); i++(incremento de variable)){
+    console.log(i);
+}
+el resultado será la impresión por pantalla una serie de números desde el  hasta el 9.
+Notése que el rango por la derecha es cerrado; es decir, toma el valor final menos uno.
+
+opreadores lógicos(&&, ||, !)
+Son símbolos utilizados para comparar dos o mas expresiones.
+
+&&(AND): compara dos expresiones y devuelve true si ambas expresiones son verdaderas, caso contrario, si alguna de las expresiones es falsa, entonces devuelve false.
+||(OR):  compara dos expresiones y basta con que una de las expresiones sea verdadera, para la expresión sea true, si las dos son falsas, entonces devolverá false.
+!(NOT): devuelve el valor opuesto a lo que se le asigna. 

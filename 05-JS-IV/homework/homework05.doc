@@ -1,0 +1,16 @@
+Objeto: Es un ente que posee propiedades, que nos dice las características de dicho objeto.
+Ejemplo: una mesa tiene como propiedades: color, medidas, material, etc.
+ 
+Propiedades: Son las que definen las características de los objetos.
+Ejemplo: las propiedades de un gato son: edad, peso, color de ojos, color de pelaje, etc.
+
+Métodos: Es una propiedad de un objeto, que se caracteriza por ser una función.
+
+Bucles for...in: Es una declaración que permite recorrer un objeto, pasando por sus propiedades.
+
+Notaciones:
+por punto: El identificador a que hace referencia debe ser válidop; es decir, debe ser una cadena de caracteres alfanuméricos incluyendo gión bajo "_" y signo del dolar "$",
+que no puede comenzar con un número. Ejemplo: obj = objeto.propiedad => casa.techo('rojo')
+
+Por Corchetes: El identificador puede comenzar con cualquier caracter, incluso con un espacio.
+Ejemplo: casa[1techo]('rojo')

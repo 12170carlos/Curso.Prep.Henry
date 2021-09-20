@@ -81,8 +81,8 @@ function tienePropiedad(objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (objeto[propiedad] ) return true;
-  else return false;
+  if (objeto.hasOwnProperty(propiedad) ) return true;
+  return false;
 }
 
 function verificarPassword(usuario, password) {
@@ -91,7 +91,7 @@ function verificarPassword(usuario, password) {
   // De lo contrario, devuelve "false"
   // // Tu código:
   if (usuario.password === password) return true;
-  else return false;
+  return false;
 }
 
 function actualizarPassword(usuario, nuevaPassword) {
@@ -119,7 +119,7 @@ function pasarUsuarioAPremium(usuarios) {
   // Devuelve el array de usuarios
   // Tu código:
   for (let i = 0; i < usuarios.length; i++) {
-    //const element = array[i];
+    
     usuarios[i].esPremium = true; 
   }
   return usuarios;
